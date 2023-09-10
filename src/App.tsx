@@ -3,8 +3,8 @@ import Button from "./components/Button";
 
 function App() {
   return (
-    <div className="h-screen w-full bg-red-200">
-      <Button variant="primary" color="blue" size="medium">
+    <div className="h-screen w-full bg-yellow-100">
+      <Button color="pink" variant="primary" size="medium">
         Call Me
       </Button>
     </div>

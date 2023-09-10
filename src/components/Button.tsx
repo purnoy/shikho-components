@@ -8,7 +8,7 @@ interface ButtonProps {
   label?: string;
 }
 
-const Button: React.FC<ButtonProps> = ({ color, variant, size, children }) => {
+const Button: React.FC<ButtonProps> = ({ children, color, variant, size }) => {
   const primaryBtn = `${
     color === "white" ? "text-pink-500" : "text-white"
   } bg-${color}-500 rounded-lg shadow-lg cursor-pointer`;
